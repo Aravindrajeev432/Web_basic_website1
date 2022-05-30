@@ -1,0 +1,122 @@
+
+body{
+    margin: 0px;
+    padding: 0;
+}
+.navbar{
+    background-color:#1f1f1f;
+    width: 100%;
+    height:120px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.navblocks{
+    width: 100%;
+    height: 120px;
+    background-color: transparent;
+ 
+   display: flex;
+   justify-content:center;
+}
+.marqueebar{
+    background-color: #feaa08;
+    width: 100%;
+    height: 35px;
+    padding-top: 5px;
+    color:#444444;
+    justify-content: center;
+
+}
+.marqueebar marquee {
+    padding-top: 6px;
+    font-size: 15px;
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
+}
+
+.imglogo{
+    background-color:transparent;
+    width: 25%;
+    height: 120px;
+    float: right;
+   
+    
+}
+.imglogo img {
+   
+    padding-left: 18px;
+
+    padding-left: 18px;
+    float: right;
+    margin-right: 10px;
+
+}
+.navigation{
+
+width: 65%;
+text-align: center;
+display: flex;
+align-items: center;
+
+}
+.navextra{
+
+width: 30%;
+display: flex;
+}
+.navextraicons
+{
+    margin: auto;
+    width: 100px;
+    height: 30px;
+    
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.navigation ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.navigation ul li{
+    width: 130px;
+   margin: 0;
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
+   font-weight: lighter;
+    
+}
+.fa-bag-shopping {
+    
+    transform: scale(1.2);
+    
+   
+}
+.fa-magnifying-glass
+{
+    margin-left: -7px;
+    transform: scale(1.2);
+}
+.fa-user
+{
+    transform: scale(1.2);
+}
+
+.navextraicons span
+{
+    background-color: #feaa08;
+    width: 15px;
+    height: 15px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 2px;
+    /*transform: translate(-13px,-6px);
+    */
+   z-index: 10;
+   margin-top: -4px;
+   margin-left: -18px;
+}
