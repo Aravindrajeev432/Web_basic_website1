@@ -239,12 +239,71 @@ product section
     text-align: left;
     padding-left: 16px;
 }
+.seeallproducts{
+   
+    width: 158px;
+height: auto;
+    margin: auto;
+    display: flex;
+    
+}
+.seeallproducts::before {
+    content: '';
+    background:#918e8e;
+    width: 116px;
+    height: 2px;
+    opacity: .5;
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 46px;
+    transition-duration: .2s;
+}
+.seeallproducts::after{
+    content: '';
+   
+    width: 0px;
+    height: 2px;
+    position: absolute;
+   width: 116px;
+    transition-duration: .2s;
+    margin-left: 15px;
+    margin-top: 46px;
+    opacity: 0;
+}
+.seeallproducts:hover::after
+{
+    transition-duration: .3s;
+    width: 116px; 
+    background:#feaa08;
+    transform:scaleX(1.2);
+    margin-top: 0px;
+    opacity: 1;
 
-.products{
+}
+.seeallproducts:hover::before
+{
+    transform:scaleX(1.2);
+    transition-duration: .3s;
+    background-color: #feaa08;
+    opacity: 1;
+}
+.seeallproducts p{
+    font-size: 15px;
+    font-weight: bold;
+}
+.productslist{
     height:690px ;
     width: 915px;
     background-color: springgreen;
     margin-left: -40px;
     margin-top: 150px;
-
+    display: grid;
+    column-gap: 11px;
+    row-gap: 11px;
+    grid-template-columns: auto auto auto;
+}
+.product{
+    width: 280px;
+    height: 340px;
+background-color:red;
 }
