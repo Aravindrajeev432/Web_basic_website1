@@ -1,4 +1,7 @@
 
+html{
+    scroll-behavior: smooth;
+}
 body{
     margin: 0px;
     padding: 0;
@@ -90,6 +93,10 @@ display: flex;
    font-weight: lighter;
     
 }
+.navigation ul li:hover
+{
+    color: #feaa08;
+}
 .fa-bag-shopping {
     
     transform: scale(1.2);
@@ -131,13 +138,11 @@ display: flex;
 }
 
 
-.sub {
+.sub{
     width: 42px;
     height: 123px;
-   
     float: right;
-    /* display: flex; */
-    /* justify-content: center; */
+   
 }
 
 
@@ -156,6 +161,32 @@ display: flex;
         align-items: center;
         /* padding-right: 18px; */
     }
+
+        .uplink{
+   
+            background-color: #f7f7f7;
+            color: #65666c;
+            width: 40px;
+            height: 40px;
+            z-index: 10;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 25px;
+            float: right;
+            margin-top: 490px;
+            position: fixed;
+            margin-left: 1350px;
+        }
+    
+    .uplink:hover{
+        background-color: #d7d4d4;   
+    }
+.uplink a{
+    text-decoration: none;
+    
+}
+
 
 .about
 {
@@ -233,6 +264,26 @@ font-size: 60px;
     transition-duration: .2s;
     transition-timing-function: linear;
     
+}
+.secondbox::before{
+    content: '  Contact with us';
+    color: white;
+    background-color: #feaa08;
+    width: 151px;
+    height: 48px;
+    margin-left: -165px;
+    display: flex;
+    align-items: center;
+    transition-duration: .2s;
+}
+#box1:hover::before{
+    transform: translateX(165px);
+    transition-duration: .2s;
+    transition-timing-function: linear;
+    
+}
+.secondbox{
+    overflow: hidden;
 }
 
 /*
